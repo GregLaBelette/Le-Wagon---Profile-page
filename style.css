@@ -2,7 +2,7 @@
 
 body {
   color: black;
-  background-color: #e7ecef;
+  background-color: #424242;
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
   font-weight: 300;
   text-align: center;
@@ -13,10 +13,6 @@ body {
   min-width: 450px;
   max-width: 800px;
   margin: 0 auto;
-}
-
-#title-box {
-  padding: 0 20%
 }
 
 a {
@@ -44,7 +40,7 @@ a {
 
 .card {
   background-color: white;
-  padding: 20px;
+  padding: 20px 10%;
   border-radius: 5px;
   margin: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -122,7 +118,7 @@ li {
 @media (max-width: 700px) {
   /* For a screen < 960px, this CSS will be read */
   body {
-    font-size: 80%;
+    font-size: 90%;
   }
 
   .container {
@@ -130,8 +126,8 @@ li {
     min-width: 350px;
   }
 
-  #title-box {
-    padding: 0 5%;
+  .card {
+    padding: 20px 10%;
   }
 
   .rounded {
