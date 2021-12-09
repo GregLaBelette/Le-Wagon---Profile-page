@@ -1,161 +1,163 @@
+<!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello, I'm Grégoire Vallette</title>
-  <link rel="icon" type="image/png" href="images/favicon.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello, I'm Grégoire Vallette</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  </head>
 
-<body>
-  <div class="dropdown-box w-100 d-flex justify-content-end">
-    <div class="dropdown me-4">
-      <a class="btn fs-1" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-bars"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-        <li class='m-0 px-2 w-100'><a class="dropdown-item" href="#banner">About</a></li>
-        <li class='m-0 px-2 w-100'><a class="dropdown-item" href="#dev">Stack</a></li>
-        <li class='m-0 px-2 w-100'><a class="dropdown-item" href="#projects">Projects</a></li>
-        <li class='m-0 px-2 w-100'><a class="dropdown-item" href="#social">Contacts</a></li>
-        <li class='m-0 px-2 w-100'><a class="dropdown-item" href="/resume.pdf" target='_blank'>Resume</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="container">
-
-    <div id="banner" class="gv-card">
-      <h1>Hello, I'm Grégoire</h1>
-      <h3>Also nicknamed "Greg la belette" or "Magic Weasel" by one of my coding mentors. Nice to meet you. I am a junior Ruby on Rails / Javascript fullstack developer.</h3>
-      <img src="images/profile.jpg" alt="profile picture" class="rounded-circle" id="profile">
-    </div>
-
-    <div id="dev" class="gv-card">
-      <h2>Web developper <i class="fas fa-code"></i></h2>
-      <img src="images/code.jpg" alt="some lines of code" class="rounded-circle">
-      <h3 class='mb'>I have just finished a nine-week bootcamp in <strong><a class="text-link" id="wagon-link" href="https://www.lewagon.com/">Le Wagon</a></strong> and enjoyed it a lot.</h3>
-      <div class="icons d-flex justify-content-center my-5">
-        <div class="icon" style="background-image: url('images/logos/ruby.png')"></div>
-        <div class="icon" style="background-image: url('images/logos/rails.png')"></div>
-        <div class="icon" style="background-image: url('images/logos/js.png')"></div>
-        <div class="icon" style="background-image: url('images/logos/wagon.png')"></div>
-      </div>
-      <p>I am very happy with <strong>Ruby</strong> and <strong>Rails</strong> in conjunction with <strong>PosGreSQL</strong></p>
-      <p>I discovered <strong>Javascript ES6</strong> on my own and @Le Wagon: <strong><a class="text-link" href="https://greglabelette.github.io/PregWheel/">Pregwheel</a></strong> is a project I did to practise front-end skills. I like <strong>Stimulus JS</strong> and <strong>Bootsrap</strong>. <strong>Figma</strong> is my swiss knife for every quick design work, from personal resume to wireframes and prototyping.</p>
-      <p>I like the developing workflow and teamwork with <strong>Git</strong> and <strong>Github</strong>, and the comprehensiveness of <strong>Heroku</strong> for deployment.</p>
-      <p>Get in touch with me in the <a href="#social" class='text-link'><strong>contact</strong></a> section</p>
-      <div class="outer-link">
-        <a href="/resume.pdf" target='_blank' class='box-link btn-lightblue text-nowrap'>See my resume</a>
+  <body>
+    <div class="dropdown-box w-100 d-flex justify-content-end">
+      <div class="dropdown me-4">
+        <a class="btn fs-1" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-bars"></i></a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li class='m-0 px-2 w-100'><a class="dropdown-item" href="#banner">About</a></li>
+          <li class='m-0 px-2 w-100'><a class="dropdown-item" href="#dev">Stack</a></li>
+          <li class='m-0 px-2 w-100'><a class="dropdown-item" href="#projects">Projects</a></li>
+          <li class='m-0 px-2 w-100'><a class="dropdown-item" href="#social">Contacts</a></li>
+          <li class='m-0 px-2 w-100'><a class="dropdown-item" href="/resume.pdf" target='_blank'>Resume</a></li>
+        </ul>
       </div>
     </div>
 
-    <div id="projects" class="gv-card">
-      <h2>Some projects <i class="fas fa-code-branch"></i></h2>
+    <div class="container">
 
-      <a href="http://www.memomix.fr" target='_blank'>
-        <div id="memomix-carousel" class="carousel slide my-5 w-75 m-auto" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="1000">
-              <img src="images/memomix/Memomix1.png" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-              <img src="images/memomix/Memomix2.png" class="d-block w-100" data-bs-interval="1000">
-            </div>
-            <div class="carousel-item">
-              <img src="images/memomix/Memomix3.png" class="d-block w-100" data-bs-interval="1000">
-            </div>
-            <div class="carousel-item">
-              <img src="images/memomix/Memomix4.png" class="d-block w-100" data-bs-interval="1000">
-            </div>
-            <div class="carousel-item">
-              <img src="images/memomix/Memomix5.png" class="d-block w-100" data-bs-interval="1000">
+      <div id="banner" class="gv-card">
+        <h1>Hello, I'm Grégoire</h1>
+        <h3>Also nicknamed "Greg la belette" or "Magic Weasel" by one of my coding mentors. Nice to meet you. I am a junior Ruby on Rails / Javascript fullstack developer.</h3>
+        <img src="images/profile.jpg" alt="profile picture" class="rounded-circle" id="profile">
+      </div>
+
+      <div id="dev" class="gv-card">
+        <h2>Web developper <i class="fas fa-code"></i></h2>
+        <img src="images/code.jpg" alt="some lines of code" class="rounded-circle">
+        <h3 class='mb'>I have just finished a nine-week bootcamp in <strong><a class="text-link" id="wagon-link" href="https://www.lewagon.com/">Le Wagon</a></strong> and enjoyed it a lot.</h3>
+        <div class="icons d-flex justify-content-center my-5">
+          <div class="icon" style="background-image: url('images/logos/ruby.png')"></div>
+          <div class="icon" style="background-image: url('images/logos/rails.png')"></div>
+          <div class="icon" style="background-image: url('images/logos/js.png')"></div>
+          <div class="icon" style="background-image: url('images/logos/wagon.png')"></div>
+        </div>
+        <p>Backend-wise I am very happy with <strong>Ruby</strong> and <strong>Rails</strong> in conjunction with <strong>PosGreSQL</strong></p>
+        <p>In terms of front I discovered <strong>Javascript ES6</strong> on my own and @Le Wagon: <strong><a class="text-link" href="https://greglabelette.github.io/PregWheel/">Pregwheel</a></strong> is a project I did to practise front-end skills. I like <strong>Stimulus JS</strong> and <strong>Bootsrap</strong>. <strong>Figma</strong> is my swiss knife for every quick design work, from presentations to wireframing and prototyping.</p>
+        <p>I like the developing workflow and teamwork with <strong>Git</strong> and <strong>Github</strong>, and the comprehensiveness of <strong>Heroku</strong> for deployment.</p>
+        <p>Get in touch with me in the <a href="#social" class='text-link'><strong>contact</strong></a> section</p>
+        <div class="outer-link">
+          <a href="/resume.pdf" target='_blank' class='box-link btn-lightblue text-nowrap'>See my resume</a>
+        </div>
+      </div>
+
+      <div id="projects" class="gv-card">
+        <h2>Some projects <i class="fas fa-code-branch"></i></h2>
+
+        <a href="http://www.memomix.fr" target='_blank'>
+          <div id="memomix-carousel" class="carousel slide my-5 w-75 m-auto" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1000">
+                <img src="images/memomix/Memomix1.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/memomix/Memomix2.png" class="d-block w-100" data-bs-interval="1000">
+              </div>
+              <div class="carousel-item">
+                <img src="images/memomix/Memomix3.png" class="d-block w-100" data-bs-interval="1000">
+              </div>
+              <div class="carousel-item">
+                <img src="images/memomix/Memomix4.png" class="d-block w-100" data-bs-interval="1000">
+              </div>
+              <div class="carousel-item">
+                <img src="images/memomix/Memomix5.png" class="d-block w-100" data-bs-interval="1000">
+              </div>
             </div>
           </div>
-        </div>
-      </a>
+        </a>
 
-      <p><a href="http://www.memomix.fr" target='_blank' class='text-link'><strong>MemoMix</strong></a> is a Ruby-on-Rails app and end-of-batch project @ Le Wagon. Add web content to a portfolio, sort and enrich it with tags, comments and rating, view it add-free, and export a PDF reading note.</p>
-      <p>It made us practise <strong>Rails</strong>, <strong>Web scrapping</strong>, integrate a JS library (<strong>TsParticles</strong>), Ajax requests with <strong>Stimulus</strong>... Made with <a href="https://www.linkedin.com/in/flaviagallois" class="text-link" target="_blank"><strong>Flavia Gallois</strong></a> and <a href="https://www.linkedin.com/in/tha%C3%AFs-paris-4aa343198/" class="text-link" target="_blank"><strong>Thais Paris</strong></p>
+        <p><a href="http://www.memomix.fr" target='_blank' class='text-link'><strong>MemoMix</strong></a> is a Ruby-on-Rails app and end-of-batch project @ Le Wagon. Add web content to a portfolio, sort and enrich it with tags, comments and rating, view it add-free, and export a PDF reading note.</p>
+        <p>It made us practise <strong>Rails</strong>, <strong>Web scrapping</strong>, integrate a JS library (<strong>TsParticles</strong>), Ajax requests with <strong>Stimulus</strong>... Made with <a href="https://www.linkedin.com/in/flaviagallois" class="text-link" target="_blank"><strong>Flavia Gallois</strong></a> and <a href="https://www.linkedin.com/in/tha%C3%AFs-paris-4aa343198/" class="text-link" target="_blank"><strong>Thais Paris</strong></p>
 
-      <a href="https://greglabelette.github.io/PregWheel/" target='_blank'>
-        <div id="pregwheel-carousel" class="carousel slide my-5 w-75 m-auto" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="1000">
-              <img src="images/pregwheel/pregwheel1.png" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-              <img src="images/pregwheel/pregwheel2.png" class="d-block w-100" data-bs-interval="1000">
-            </div>
-            <div class="carousel-item">
-              <img src="images/pregwheel/pregwheel3.png" class="d-block w-100" data-bs-interval="1000">
-            </div>
-            <div class="carousel-item">
-              <img src="images/pregwheel/pregwheel4.png" class="d-block w-100" data-bs-interval="1000">
-            </div>
-            <div class="carousel-item">
-              <img src="images/pregwheel/pregwheel5.png" class="d-block w-100" data-bs-interval="1000">
+        <a href="https://greglabelette.github.io/PregWheel/" target='_blank'>
+          <div id="pregwheel-carousel" class="carousel slide my-5 w-75 m-auto" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1000">
+                <img src="images/pregwheel/pregwheel1.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pregwheel/pregwheel2.png" class="d-block w-100" data-bs-interval="1000">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pregwheel/pregwheel3.png" class="d-block w-100" data-bs-interval="1000">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pregwheel/pregwheel4.png" class="d-block w-100" data-bs-interval="1000">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pregwheel/pregwheel5.png" class="d-block w-100" data-bs-interval="1000">
+              </div>
             </div>
           </div>
-        </div>
-      </a>
+        </a>
 
-      <p><a href="https://greglabelette.github.io/PregWheel/" target='_blank' class="text-link"><strong>PregWheel</strong></a> is a static single page app / progressive web app developed with a midwife. It is an interactive pregnancy calendar with a turning wheel and a CVS simulating the database.</p>
-      <p>I did it to practise right after <strong>Mozilla Developers Network</strong> online tutorial. It made me practise <strong>JavaScript ES6</strong>, click & touch events, canvas, CSS transformations, JQueryUI and JS date objects handling.</p>
+        <p><a href="https://greglabelette.github.io/PregWheel/" target='_blank' class="text-link"><strong>PregWheel</strong></a> is a static single page app / progressive web app developed with a midwife. It is an interactive pregnancy calendar with a turning wheel and a CVS simulating the database.</p>
+        <p>I did it to practise right after <strong>Mozilla Developers Network</strong> online tutorial. It made me practise <strong>JavaScript ES6</strong>, click & touch events, canvas, CSS transformations, JQueryUI and JS date objects handling.</p>
 
-      <a href="https://greglabelette-locallibrary.herokuapp.com/" target='_blank'>
-        <div id="locallibrary-carousel" class="carousel slide my-5 w-75 m-auto" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="1000">
-              <img src="images/locallib/locallib1.png" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-              <img src="images/locallib/locallib2.png" class="d-block w-100" data-bs-interval="1000">
-            </div>
-            <div class="carousel-item">
-              <img src="images/locallib/locallib3.png" class="d-block w-100" data-bs-interval="1000">
-            </div>
-            <div class="carousel-item">
-              <img src="images/locallib/locallib4.png" class="d-block w-100" data-bs-interval="1000">
+        <a href="https://greglabelette-locallibrary.herokuapp.com/" target='_blank'>
+          <div id="locallibrary-carousel" class="carousel slide my-5 w-75 m-auto" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1000">
+                <img src="images/locallib/locallib1.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/locallib/locallib2.png" class="d-block w-100" data-bs-interval="1000">
+              </div>
+              <div class="carousel-item">
+                <img src="images/locallib/locallib3.png" class="d-block w-100" data-bs-interval="1000">
+              </div>
+              <div class="carousel-item">
+                <img src="images/locallib/locallib4.png" class="d-block w-100" data-bs-interval="1000">
+              </div>
             </div>
           </div>
+        </a>
+
+        <p><a href="https://greglabelette-locallibrary.herokuapp.com/" target='_blank' class="text-link">LocalLibrary</a> is a first discovery of backend & database with <strong>Mozilla Developers Network</strong>. It made me practise <strong>ExpressJS, MongoDB and Bootsrap.</strong></p>
+      </div>
+
+
+      <div id="Dushow" class="gv-card">
+        <h2>Formerly in the show business <i class="fas fa-headphones-alt"></i></h2>
+        <img src="images/dushow.jpg" alt="some big speakers setup" class="rounded-circle">
+        <p>Working as a Projects manager in a (big) audio rental company called <strong><a class="text-link"
+              href="https://www.dushow.com/" class="text-link" id="dushow-link">Dushow.</a></strong> Liked it, but life is
+          too short for only one job.</p>
+        <div class="outer-link">
+          <a href="https://www.dushow.com/" class="box-link btn-dushow">Dushow</a>
         </div>
-      </a>
+      </div>
 
-      <p><a href="https://greglabelette-locallibrary.herokuapp.com/" target='_blank' class="text-link">LocalLibrary</a> is a first discovery of backend & database with <strong>Mozilla Developers Network</strong>. It made me practise <strong>ExpressJS, MongoDB and Bootsrap.</strong></p>
-    </div>
+      <div id="music" class="gv-card">
+        <h2>Music passionate <i class="fas fa-guitar"></i></h2>
+        <img src="images/music.jpg" alt="playing the bass" class="rounded-circle">
+        <p>I play the guitar & the bass for recording and live projects. Had to become a self-employed entrepreneur to
+          make it an occasional job.</p>
+      </div>
 
-
-    <div id="Dushow" class="gv-card">
-      <h2>Formerly in the show business <i class="fas fa-headphones-alt"></i></h2>
-      <img src="images/dushow.jpg" alt="some big speakers setup" class="rounded-circle">
-      <p>Working as a Projects manager in a (big) audio rental company called <strong><a class="text-link"
-            href="https://www.dushow.com/" class="text-link" id="dushow-link">Dushow.</a></strong> Liked it, but life is
-        too short for only one job.</p>
-      <div class="outer-link">
-        <a href="https://www.dushow.com/" class="box-link btn-dushow">Dushow</a>
+      <div id="social" class="gv-card">
+        <h2>You can meet me there <i class="fas fa-arrow-down"></i></h2>
+        <ul>
+          <li><a class="text-link" href="https://github.com/GregLaBelette"><i class="fab fa-github"></i></a></li>
+          <li><a class="text-link" href="https://www.linkedin.com/in/gr%C3%A9goire-vallette-086534178/"><i class="fab fa-linkedin"></i></a></li>
+          <li><a class="text-link" href="https://en.wikipedia.org/wiki/Weasel"><i class="fab fa-facebook"></i></a></li>
+        </ul>
       </div>
     </div>
 
-    <div id="music" class="gv-card">
-      <h2>Music passionate <i class="fas fa-guitar"></i></h2>
-      <img src="images/music.jpg" alt="playing the bass" class="rounded-circle">
-      <p>I play the guitar & the bass for recording and live projects. Had to become a self-employed entrepreneur to
-        make it an occasional job.</p>
-    </div>
-
-    <div id="social" class="gv-card">
-      <h2>You can meet me there <i class="fas fa-arrow-down"></i></h2>
-      <ul>
-        <li><a class="text-link" href="https://github.com/GregLaBelette"><i class="fab fa-github"></i></a></li>
-        <li><a class="text-link" href="https://www.linkedin.com/in/gr%C3%A9goire-vallette-086534178/"><i class="fab fa-linkedin"></i></a></li>
-        <li><a class="text-link" href="https://en.wikipedia.org/wiki/Weasel"><i class="fab fa-facebook"></i></a></li>
-      </ul>
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <script src='script.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
 
 </html>
