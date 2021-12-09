@@ -1,0 +1,16 @@
+.rounded-circle {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+}

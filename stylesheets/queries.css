@@ -1,0 +1,97 @@
+@media (max-width: 700px) {
+
+  /* For a screen < 960px, this CSS will be read */
+  body {
+    font-size: 85%;
+  }
+
+  h1 {
+    font-size: 240% !important;
+  }
+
+  h2 {
+    font-size: 200% !important;
+  }
+
+  h3 {
+    font-size: 110% !important;
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .container {
+    width: 95%;
+    min-width: 350px;
+  }
+
+  .rounded-circle {
+    width: 100px
+  }
+
+  #profile {
+    width: 150px
+  }
+}
+
+@media (max-width: 500px) {
+
+  /* For a screen < 960px, this CSS will be read */
+  body {
+    font-size: 75%;
+  }
+
+  h1 {
+    font-size: 260% !important;
+  }
+
+  h2 {
+    font-size: 180% !important;
+  }
+
+  h3 {
+    font-size: 120% !important;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .container {
+    width: 99% !important;
+    min-width: 100px !important;
+    margin: 0;
+    padding: 0 !important;
+  }
+
+  .gv-card {
+    background-color: white;
+    padding: 6px 6%;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .rounded-circle {
+    width: 100px
+  }
+
+  #profile {
+    width: 150px
+  }
+
+  li i {
+    font-size: 200%;
+  }
+
+  .carousel {
+    width: 100% !important;
+  }
+
+  .outer-link {
+    margin: 40px 10px;
+  }
+}

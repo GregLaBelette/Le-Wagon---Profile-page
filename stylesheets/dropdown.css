@@ -1,0 +1,26 @@
+.dropdown-menu {
+  z-index: 10;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+li i {
+  color: #6096ba;
+  font-size: 300%
+}
+
+.dropdown-box {
+  position: fixed;
+  top: 10px;
+}
+
+.dropdown i {
+  color: #6096ba;
+}

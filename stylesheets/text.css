@@ -1,0 +1,28 @@
+h1 {
+  color: #6096ba;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 280%;
+  letter-spacing: 5px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #274c77;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 170%;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 112%;
+}
+
+p {
+  text-align: justify;
+}

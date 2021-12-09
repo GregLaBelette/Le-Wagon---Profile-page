@@ -1,0 +1,21 @@
+.carousel {
+  z-index: 0;
+}
+
+.carousel-inner {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+  z-index: 0;
+}
+
+.carousel-item {
+  z-index: 0;
+}
+
+.carousel img {
+  position: relative;
+  height: min(40vh, 40vw);
+  object-fit: cover;
+  object-position: top center;
+  z-index: 0;
+}
